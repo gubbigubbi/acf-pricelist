@@ -4,6 +4,6 @@
 *
 
 # But not these files...
-app.js
+js/app.js
 page-pricelist.php
 # etc...
