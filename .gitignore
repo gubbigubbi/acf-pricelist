@@ -1,9 +1,8 @@
-.sass-cache/
-*.css.map
 # Ignore everything
 *
-
-# But not these files...
-js/app.js
-page-pricelist.php
-# etc...
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore .gitignore and *.foo files
+!.gitignore
+!*app
+!*page-pricelist
