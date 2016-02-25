@@ -1,2 +1,9 @@
 .sass-cache/
 *.css.map
+# Ignore everything
+*
+
+# But not these files...
+app.js
+page-pricelist.php
+# etc...
